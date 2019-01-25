@@ -1,0 +1,27 @@
+{
+  "name": "bookingflow-cypres-e2e",
+  "version": "1.0.0",
+  "description": "booking flow single property test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Demeure/bookingflow-cypres-e2e.git"
+  },
+  "author": "Team QA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Demeure/bookingflow-cypres-e2e/issues"
+  },
+  "homepage": "https://github.com/Demeure/bookingflow-cypres-e2e#readme",
+  "devDependencies": {
+    "cypress": "^3.1.1",
+    "cypress-dark": "^1.7.1"
+  },
+  "dependencies": {
+    "moment": "^2.22.2"
+  }
+}

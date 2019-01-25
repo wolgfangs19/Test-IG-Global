@@ -64,9 +64,18 @@ it('search pesca', function(){
 		.click()
 
 cy.get('input[id="what"]').clear() 
-	
-			})
 
+cy.get('span[title="Anuncio certificado"').should('exist').then(($certificado)=>{
+
+		certificado.map(function(index, elem) {
+			count = count + 1;
+		var count = 0
+	})
+
+	})
+
+
+})
 
 it('search no result', function(){
 	cy.get('input[id="what"]').type('hallaca')
